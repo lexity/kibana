@@ -60,7 +60,7 @@ angular.module('kibana.histogram', [])
     interval    : '5m',
     fill        : 0,
     linewidth   : 3,
-    timezone    : 'browser', // browser, utc or a standard timezone
+    timezone    : 'utc', // browser, utc or a standard timezone
     spyable     : true,
     zoomlinks   : true,
     bars        : true,
